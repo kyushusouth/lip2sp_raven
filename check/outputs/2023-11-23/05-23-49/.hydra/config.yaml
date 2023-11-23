@@ -8,10 +8,10 @@ transformer_input_layer: vanilla_linear
 dropout_rate: 0.1
 transformer_attn_dropout_rate: 0.1
 transformer_encoder_attn_layer_type: rel_mha
-macaron_style: False
-use_cnn_module: False
+macaron_style: false
+use_cnn_module: false
 cnn_module_kernel: 31
-zero_triu: False
+zero_triu: false
 a_upsample_ratio: 1
 relu_type: swish
 ddim: 512
@@ -19,15 +19,15 @@ dheads: 8
 dunits: 2048
 dlayers: 6
 lsm_weight: 0.1
-transformer_length_normalized_loss: False
+transformer_length_normalized_loss: false
 rel_pos_type: latest
-layerscale: True
+layerscale: true
 init_values: 0.1
-ff_bn_pre: True
-post_norm: False
-gamma_zero: False
+ff_bn_pre: true
+post_norm: false
+gamma_zero: false
 gamma_init: 0.1
-mask_init_type:
+mask_init_type: null
 ctc_type: warpctc
 drop_path: 0.0
 mtlalpha: 0.1
